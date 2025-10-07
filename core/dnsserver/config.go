@@ -77,6 +77,9 @@ type Config struct {
 	// Plugin stack.
 	Plugin []plugin.Plugin
 
+	// Whether there is at least one plugin to handle DSO messages.
+	HandleDSO bool
+
 	// Compiled plugin stack.
 	pluginChain plugin.Handler
 
