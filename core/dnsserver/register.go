@@ -264,6 +264,7 @@ func propagateConfigParams(configs []*Config) {
 		c.Debug = c.firstConfigInBlock.Debug
 		c.Stacktrace = c.firstConfigInBlock.Stacktrace
 		c.NumSockets = c.firstConfigInBlock.NumSockets
+		c.HandleDSO = c.firstConfigInBlock.HandleDSO
 
 		// Fork TLSConfig for each encrypted connection
 		c.TLSConfig = c.firstConfigInBlock.TLSConfig.Clone()
