@@ -197,3 +197,5 @@ require (
 	sigs.k8s.io/structured-merge-diff/v6 v6.3.0 // indirect
 	sigs.k8s.io/yaml v1.6.0 // indirect
 )
+
+replace github.com/miekg/dns v1.1.68 => github.com/Kentzo/dns v0.1.68
